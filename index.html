@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap//bootstrap-5.3.8-dist//css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="./bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="./Gallery/c2.png" type="image/png">
+    <link rel="stylesheet" href="./index.css">
+    <title>
+        Malik's Currency Converter
+    </title>
+
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  bg-light navbar-secondary rounded ">
+        <div class="container">
+            <a class="navbar-brand d-flex  ms-3 p-0" href="#"><img src="./Gallery/c2.png" width="130"
+                    alt="Currency Converter Logo"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navLink">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLink">
+                <ul class=" navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active ">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link mx-3 ">Currency Converter</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Exchange Rates</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link mx-3 ">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Contact</a></li>
+                </ul>
+                <form action="" class="d-flex">
+                    <div class="input-group d-flex" id="search">
+                        <input type="text" placeholder="Search" class="form-control ">
+                        <button class="btn  btn-outline-primary">Search</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6  my-sm-5 my-md-auto">
+                <h1 class="text-secondary fst-italic fw-bold ">Fast & Accurate <br> Currency Exchange</h1>
+                <p class="mb-5 h5">Access live exchange rates for ovr 170 currencies worldwide. convert with confidence
+                    using reliable, up-to-date market data. </p>
+            </div>
+            <div class="col-md-4 rounded ms-auto">
+                <form action="#" id="form" class="form p-5 bg-light my-5">
+                    <h2 class="h3">Currencey Converter</h2>
+                    <div class="form-group ">
+                        <label for="#" class="form-lable">Enter Amount</label>
+                        <input type="text" value="100" class="form-control mb-3" id="amount">
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-sm-4 from">
+                            <label for="#" class="form-lable">From</label>
+                            <div class="select-container ">
+                                <img src="https://flagsapi.com/US/flat/64.png " width="40px" alt="Pic Loaded...">
+                                <select name="from" id="" class=" form-select  w-100">
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 m-auto">
+                            </i><i class="bi bi-arrow-repeat h1 "></i>
+                        </div>
+
+                        <div class="form-groupn col-sm-4 to">
+                            <label for="#" class="form-lable">To</label>
+                            <div class="select-container">
+                                <img src="https://flagsapi.com/PK/flat/64.png" class="img-fluid" width="40px" alt="Pic Loaded...">
+                                <select name="to" id="" class=" form-select">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="msg my-3">1 USD = 365 PKR</div>
+                    <button class="btn-outline-secondary btn w-100" id="exchange">Get Exchange Rates</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid">
+        <div class="container">
+
+
+            <div class="row border-bottom">
+                <img src="./Gallery/c2.png" class="col-sm-3" width="250" alt="Logo....">
+            </div>
+            <div class="row mt-5 pb-5 border-bottom">
+                <div class="col-md-3 col-sm-6 mb-sm-3 border-end">
+                    <h6>Quick Links</h6>
+                    <ul class="list-group ">
+                        <li class="list-group-item border-0 bg-transparent list-group-item-action"><a href="#">Home</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent list-group-item-action"><a href="#">About</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent list-group-item-action"><a
+                                href="#">Services</a></li>
+                        <li class="list-group-item border-0 bg-transparent list-group-item-action"><a
+                                href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  border-end">
+                    <h6>Currency Tools</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item  border-0 bg-transparent "><a href="#">Currency Converter</a></li>
+                        <li class="list-group-item  border-0 bg-transparent "><a href="#">Exchange Rates</a></li>
+                        <li class="list-group-item  border-0 bg-transparent "><a href="#">Popular Currency</a></li>
+                        <li class="list-group-item  border-0 bg-transparent "><a href="#">Historical Rates</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  border-end">
+                    <h6>Support</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Contect Us</a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">FAQ</a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Privacy</a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6>Follow Us</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Facebook </a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Instagram</a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">Github </a></li>
+                        <li class="list-group-item border-0 bg-transparent "><a href="#">LinkedIn </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-3">
+                <div class="col-sm-12 col-md-5">
+                    <img src="./Gallery/c2.png" width="200" alt="">
+                </div>
+                <div class="col-sm-8 col-md-4 me-3  rounded-pill">
+                    <button class="mt-3 btn btn-outline-info dropdown-toggle w-100" data-bs-toggle="dropdown">
+                        Pakistan (English)
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Pakistan (English)</a></li>
+                        <li><a class="dropdown-item" href="#">Pakistan (Urdu)</a></li>
+                        <li><a class="dropdown-item" href="#">United States (English)</a></li>
+                        <li><a class="dropdown-item" href="#">United Kingdom (English)</a></li>
+                        <li><a class="dropdown-item" href="#">Canada (English)</a></li>
+                        <li><a class="dropdown-item" href="#">India (English)</a></li>
+                        <li><a class="dropdown-item" href="#">United Arab Emirates (English)</a></li>
+                        <li><a class="dropdown-item" href="#">Saudi Arabia (English)</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 g-3 ">
+                    <i class="bi bi-whatsapp fs-2 text-success"></i>
+
+                    <i class="bi bi-facebook fs-2 mx-2 text-primary"></i>
+
+                    <i class="bi bi-instagram fs-2 text-danger"></i>
+
+                    <i class="bi bi-twitter-x fs-2 ms-2 text-dark"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./countryList.js"></script>
+
+
+</body>
+
+</html>
